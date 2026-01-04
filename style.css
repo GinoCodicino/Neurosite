@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    background: radial-gradient(circle, #1a237e 0%, #0d47a1 70%, #000 100%);
+}
+
+.neuro-title {
+    font-family: 'Orbitron', Arial Black, sans-serif !important;
+    font-size: 4rem;
+    font-weight: 900 !important;
+    letter-spacing: 6px;
+    color: #00ffff;
+    text-shadow: 
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 30px #ff00ff,
+        2px 2px 4px #ff0080,
+        4px 4px 8px rgba(0,0,0,0.8);
+    transform: rotateX(15deg);
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.neuro-title:hover {
+    text-shadow: 
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        0 0 60px #ff00ff,
+        3px 3px 6px #ff0080,
+        6px 6px 12px rgba(0,0,0,0.9);
+    transform: rotateX(10deg) scale(1.05);
+}
+
+
+#question { 
+    font-weight: bold; 
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+}
+
+#answers label { 
+    display: block; 
+    margin: 15px 0; 
+    cursor: pointer; 
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+#answers label:hover {
+    background: #e3f2fd;
+}
+
+button { 
+    padding: 12px 24px; 
+    margin: 10px; 
+    background: linear-gradient(45deg, #007bff, #0056b3); 
+    color: white; 
+    border: none; 
+    border-radius: 25px; 
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,123,255,0.3);
+}
+
+button:hover:not(:disabled) { 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,123,255,0.4);
+}
+
+#score {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .neuro-title { 
+        font-size: 2.5rem; 
+        letter-spacing: 3px; 
+    }
+}
