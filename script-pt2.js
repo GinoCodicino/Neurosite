@@ -249,7 +249,7 @@ const questions = [
       "Blue light 490 nm has a mid penetration and enhances the vessels",
       "Use of blue light 490 nm enhances the surface layers of retina"
     ],
-   correct: [1, 4]
+   correct: [1,2,3,4]
   },
   {
     question: "Which of these statements about Otoacoustic Emissions (OAEs) are TRUE? (3 points)",
