@@ -465,7 +465,153 @@ const questions = [
       "A pattern recognition program"
     ],
     correct: [1, 3, 4]
+  },
+
+  {
+    
+    question: "AFFERENT vs EFFERENT Pathways: Which of these statements are TRUE?",
+    answers: [
+      "Arm movements are controlled by EFFERENT pathways from the motor cortex",
+      "Pain is sensed by our brain thanks to responses coming from nociceptors through EFFERENT nerve pathways",
+      "AFFERENT feedback from the cochlear nuclei to the eye can initiate eyelid reflexes",
+      "The heartbeat is controlled by AFFERENT modulation of the sinus node by the vagus and sympathetic nerves",
+      "The AFFERENT somatosensory pathway ends in the parietal cortex",
+      "AFFERENT auditory pathways generate sound-evoked electrical potentials"
+    ],
+    correct: [0, 4]
+  },
+  {
+    question: "What are the main similarities/differences between the Electroretinogram (ERG) and the Electrooculogram (EOG)?",
+    answers: [
+      "They are the same",
+      "They are both evoked potentials",
+      "The EOG is not an evoked potential",
+      "The ERG is not an evoked potential",
+      "They both measure differences in ion concentrations",
+      "The EOG is used to detect and eliminate motion artifacts",
+      "None of these answers apply"
+    ],
+    correct: [2, 5]
+  },
+  {
+    question: "Which of the following are TRUE in Otoacoustic Emissions (OAE)?",
+    answers: [
+      "OAE amplitude in the I/O function always grows linearly with increasing input stimulus level",
+      "OAE amplitude in the I/O function grows non-linearly with increasing input stimulus level",
+      "OAE amplitude in the I/O function saturates for lower input levels, i.e. for lower input the increase is lower",
+      "The non-linear behavior relating stimulus level and OAE amplitude is due to the non-linear behavior of outer hair cells",
+      "OAE amplitude in the I/O function can be considered piecewise linear with increasing input stimulus level"
+    ],
+    correct: [2, 4, 5]
+  },
+  {
+    question: "What does the spectrogram of an acoustic signal represent?",
+    answers: [
+      "The Fourier transform of the considered signal",
+      "The power spectral density of all sinusoidal components",
+      "The time-frequency representation of the signal’s power spectral density",
+      "The sum of all sinusoidal components for each time and frequency instant",
+      "The power spectral density of a sinusoidal component in time",
+      "None of these answers apply"
+    ],
+    correct: [2]
+  },
+  {
+    question: "In Psychophysics, which of the following statements are true for the mathematical relationship between stimulus intensity and perception/sensation?",
+    answers: [
+      "The sensation magnitude is always linearly proportional to stimulus intensity",
+      "The scaling constant is subject dependent",
+      "The relationship follows Weber’s law",
+      "The relationship is expressed by a power law",
+      "The power exponent is dependent on modality",
+      "The power exponent depends on the stimulus amplitude",
+      "The sensation depends on the square of the stimulus intensity"
+    ],
+    correct: [1, 3, 4]
+  },
+  {
+    question: "A loudness of 4 SONES corresponds to a loudness equal to:",
+    answers: [
+      "50 PHONES",
+      "60 PHONES",
+      "That of a 1000 Hz tone at 60 dB SPL",
+      "That of a 1000 Hz tone at 80 dB SPL",
+      "40 PHONES"
+    ],
+    correct: [1, 2]
+  },
+  {
+    question: "Which of these statements are TRUE for directional microphone of hearing aid?",
+    answers: [
+      "Has a cardiod dynamics at different frequencies",
+      "It is able to suppress sounds better if they come form the later side with respect to the front",
+      "It has a flat frequency response in the speech frequency range",
+      "The highest suppression is for sounds coming from 90 degrees with respect to the front",
+      "The lowest suppression is for sounds coming from 90 degrees with respect to the front"
+    ],
+    correct: [0, 1, 2]
+  },
+  {
+    question: "Sound Intensity of a spherical sound wave",
+    answers: [
+      "Is the power through the radial surface unit",
+      "Is measured in Watt",
+      "Is directly proportional to r^2",
+      "Is an objective scale",
+      "It depends on subject's perception"
+    ],
+    "correct": [0, 3]
+  },
+  {
+    question: "Which of these are among the main elements in the Michelson's interferometer?",
+    answers: [
+      "Beam sweeper",
+      "Light decoder",
+      "Beam splitter",
+      "Short coherent Light",
+      "Frequency modulator",
+      "Light detector",
+      "Low pass filter"
+    ],
+    correct: [2, 3, 5]
+  },
+  {
+    question: "Which of these elements are part of a Kurtzwell's reading Machine?",
+    answers: [
+      "Camera",
+      "Microphone",
+      "Vocabulary",
+      "Speech Synthesizer",
+      "Radar sensor",
+      "Light source",
+      "Matrix of tactile stimulators"
+    ],
+    correct: [0, 2, 3]
+  },
+  {
+    question: "Which of these statements are TRUE in cochlear Implants?",
+    answers: [
+      "A transcutaneous connection is more likely to produce infections than a percutaneous one",
+      "The T level for the current amplitude is higher than the MCL",
+      "The monopolar stimulation produces a more widespread region of excitation with respect to the bipolar one",
+      "In the speech processing the envelope extraction comes before than the non-linear compression of current levels",
+      "The current is provided at once and simultaneously to all electrodes"
+    ],
+   correct: [2, 3]
+  },
+  {
+    question: "Which of these statements about color physiology are TRUE?",
+    answers: [
+      "Touch and proprioception are transmitted by large-diameter axons with fast conduction velocities",
+      "The luminance achromatic pathway depends on red and blue cones",
+      "S wavelength (blue) On and Off cones creates the Blue/Yellow color opponency",
+      "The chromatics channel depends just on the difference between L vs M cones",
+      "The first stage of the color-contrast pathway yields the creation of broad band sensitivity to Red/Green color opponency",
+      "The Red/Green color opponency is extracted simply by lateral inhibition and the mixing of L/M cones"
+    ],
+   correct: [0, 5]
   }
+
    // Aggiungi altre domande...
 ];
 
@@ -521,7 +667,7 @@ function shuffleArray(array) {
 }
 
 function updateScoreDisplay() {
-    scoreEl.textContent = `Corrette: ${correctCount} | Errori: ${wrongCount} | Fatte: ${totalCount} /40`;
+    scoreEl.textContent = `Corrette: ${correctCount} | Errori: ${wrongCount} | Fatte: ${totalCount} /52`;
     totalCount++;  
 }
 
