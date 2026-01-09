@@ -214,7 +214,7 @@ function shuffleArray(array) {
 }
 
 function updateScoreDisplay() {
-    scoreEl.textContent = `Corrette: ${correctCount} | Errori: ${wrongCount} | Fatte: ${totalCount} /40`;
+    scoreEl.textContent = `Corrette: ${correctCount} | Errori: ${wrongCount} | Fatte: ${totalCount} /13`;
     totalCount++;  
 }
 
