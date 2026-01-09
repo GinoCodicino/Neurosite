@@ -84,7 +84,7 @@ const questions = [
   },
   {
     question: "Choose the two definitions that fill the two gaps: Retina chromatic information is conveyed through the on/off center-surround antagonism of ........... and it overlaps with..... achromatic information.",
-    answer: [
+    answers: [
       "midget ganglion cells",
       "bipolar cells",
       "high resolution",
@@ -97,7 +97,7 @@ const questions = [
   },
   {
     question: "The vestibular semicircular canals detect",
-    answer: [
+    answe : [
     "angular velocity",
     "fluid displacement",
     "linear acceleration",
@@ -108,8 +108,8 @@ const questions = [
     correct: [5]
   },
   {
-    "question": "Which of these statements about vision optics are true?",
-    "answer": [
+    question: "Which of these statements about vision optics are true?",
+    answers: [
       "The point spread function is independent from pupil dimension",
       "The shorter the light's wavelength the greater the scattering",
       "In a denser medium like the cornea tissue (n=1,38) light will travel at a higher velocity",
@@ -117,11 +117,11 @@ const questions = [
       "Contrast and resolution increase in dim light",
       "None of the statements are true"
     ],
-    "correct": [1, 3]
+    correct: [1, 3]
   },
   {
-    "question": "Which of these statements about motion perception are true?",
-    "answer": [
+    question: "Which of these statements about motion perception are true?",
+    answers: [
       "Most of the processing for motion integration happens in V4",
       "The middle temporal (MT) area is a critical area for motion integration",
       "Motion integration happens along the dorsal stream",
@@ -131,11 +131,11 @@ const questions = [
       "MT cells are not directional cells (they don't respond to specific direction gradients)",
       "None of these statements are true"
     ],
-    "correct": [1, 2]
+    correct: [1, 2]
   },
   {
-    "question": "Which of these answers are true statements about the main characteristics of Red, Green and Blue light Retinal Imaging?",
-    "answer": [
+    question: "Which of these answers are true statements about the main characteristics of Red, Green and Blue light Retinal Imaging?",
+    answers: [
       "Use of blue light (490 nm) enhance the surface layers of retina",
       "Blue light (490 nm) has a mid-penetration and enhances the vessels",
       "Green light (540-575 nm) enhances the fibers converging t o the optic disk",
@@ -143,11 +143,11 @@ const questions = [
       "Green light (540-575 nm) enhances the choroid structure"
 
     ],
-    "correct": [1, 4]
+    correct: [1, 4]
   },
   {
-    "question": "Which of these statements about vision optics are FALSE?",
-    "answer": [
+    question: "Which of these statements about vision optics are FALSE?",
+    answers: [
     "The point spread function is independent from pupil dimension",
     "In a denser medium like the cornea tissue ( n - 1.38) light will travel at a higher velocity",
     "The wider the pupil the smaller the theoretic lens diffraction",
@@ -156,7 +156,7 @@ const questions = [
     "None of these statements are false"
 
     ],
-    "correct": [1, 3, 5]
+    correct: [1, 3, 5]
   }
 
    // Aggiungi altre domande...
